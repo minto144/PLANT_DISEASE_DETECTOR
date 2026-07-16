@@ -9,7 +9,7 @@ from PIL import Image
 import io
 import tensorflow as tf
 
-from classes import get_disease_info, CLASS_LABELS
+from .classes import get_disease_info, CLASS_LABELS
 
 # Works both locally and on Render
 BASE_DIR       = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
