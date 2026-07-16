@@ -8,7 +8,7 @@ from fastapi import FastAPI, File, UploadFile, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 import uvicorn
 
-from predict import predict, load_model
+from .predict import predict, load_model
 from classes import CLASS_LABELS, DISEASE_INFO
 
 app = FastAPI(
